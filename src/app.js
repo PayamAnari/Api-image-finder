@@ -1,4 +1,3 @@
-// Your app.js code goes here
 const formEl = document.querySelector('form');
 const inputEl = document.getElementById('search-input');
 const searchResults = document.querySelector('.search-results');
