@@ -19,7 +19,7 @@
 
 
 <p align="center">
-	<img src="https://live.staticflickr.com/65535/53070575029_e127026522_m.jpg" width="1024" height="600" alt="Screenshot 2023-07-15 at 21.47.28"/></a>
+	<img src="https://live.staticflickr.com/65535/53070619499_2db5343fd2_m.jpg" width="1024" height="600" alt="Screenshot"/></a>
 </p>	
 
 
@@ -75,8 +75,8 @@ assets
 public
   └── style.css
 src
-       └── app.js
-       └── api.js
+     └── app.js
+     └── api.js
 index.html
 package-loc.json
 package.json
