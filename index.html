@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/style.css" />
+    <link rel="icon" href="./assets/search.svg" />
+    <title>Image Finder</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Image Finder</h1>
+      <img src="./assets/search.svg" alt="search-icon" />
+    </div>
+
+    <form action="">
+      <input type="text" id="search-input" placeholder="Search for images" />
+      <button id="search-button">Search</button>
+    </form>
+    <div class="search-results">
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1682687982141-0143020ed57a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+          alt="A woman take picture of a coral "
+        />
+        <a href="https://unsplash.com/photos/odwrd9IVBuk" target="_blank"
+          >A woman take picture of a coral</a
+        >
+      </div>
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+          alt="closeup photography of woman"
+        />
+        <a href="https://unsplash.com/photos/mEZ3PoFGs_k" target="_blank"
+          >closeup photography of woman
+        </a>
+      </div>
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1686343100066-4d9b978be080?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=772&q=80"
+          alt="A city skyline at night with lights "
+        />
+        <a href="https://unsplash.com/photos/r90ZgffimHk" target="_blank"
+          >A city skyline at night with lights</a
+        >
+      </div>
+    </div>
+    <button id="show-more">Show more</button>
+
+    <script src="./src/api.js"></script>
+    <script src="./src/app.js"></script>
+  </body>
+</html>
