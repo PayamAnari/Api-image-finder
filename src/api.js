@@ -1,4 +1,3 @@
-// Your api.js code goes here
 const accessKey = 'VbgIYaCcPRutHW1zGCt5YWyK83o9VMNaDUJN52S5vPo';
 
 async function searchImages() {
