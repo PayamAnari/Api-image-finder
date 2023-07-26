@@ -19,7 +19,7 @@
 
 
 <p align="center">
-	<img src="https://live.staticflickr.com/65535/53070619499_3d37295304_o.png" width="1024" height="600" alt="Screenshot"/></a>
+	<img src="https://live.staticflickr.com/65535/53070619499_3d37295304_o.png" width="1024" height="550" alt="Screenshot"/></a>
 </p>	
 
 
