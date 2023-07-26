@@ -111,7 +111,17 @@ form {
   cursor: pointer;
   display: none;
 }
-
+.msg {
+  font-size: 1.1em;
+  color: #6c6a6a;
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+  border: 2px solid gray;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 0.5em;
+}
 
 @media screen and (max-width: 768px){
   .search-result {
