@@ -24,6 +24,12 @@ async function searchImages() {
       searchResults.innerHTML = '';
     }
 
+    if (results.length === 0) {
+    searchResults.innerHTML = `<h3 class='msg'>No relevant images found.</h3>`;
+    showMore.style.display = 'none';
+    return;
+    }
+    
     results.map((result) => {
       const imageWrapper = document.createElement('div');
       imageWrapper.classList.add('search-result');
