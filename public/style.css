@@ -111,6 +111,9 @@ form {
   cursor: pointer;
   display: none;
 }
+#show-more:hover {
+  background-color: #0763ee;
+}
 .msg {
   font-size: 1.1em;
   color: #6c6a6a;
